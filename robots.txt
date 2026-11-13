@@ -1,0 +1,22 @@
+
+# WebVistaar - Robots.txt
+
+User-agent: *
+Allow: /
+
+# AI Search Crawlers
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://webvistaar.netlify.app/sitemap.xml
